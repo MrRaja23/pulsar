@@ -33,7 +33,7 @@
   <name>Apache Pulsar :: Tiered Storage :: Parent</name>
 
   <properties>
-    <pulsar.jclouds.shaded.version>${project.version}</pulsar.jclouds.shaded.version>
+    <pulsar.jclouds.shaded.version>3.3.9</pulsar.jclouds.shaded.version>
   </properties>
 
   <modules>
