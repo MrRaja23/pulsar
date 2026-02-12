@@ -98,7 +98,7 @@ flexible messaging model and an intuitive client API.</description>
     <!-- By default build for local Docker platform.
          To create multi-arch image, pass -Ddocker.platforms=linux/arm64,linux/amd64
     -->
-    <docker.platforms></docker.platforms>
+    <docker.platforms/>
 
     <!-- required for running tests on JDK11+ -->
     <test.additional.args>
@@ -116,7 +116,7 @@ flexible messaging model and an intuitive client API.</description>
     <testRealAWS>false</testRealAWS>
     <testRetryCount>1</testRetryCount>
     <testFailFast>true</testFailFast>
-    <testFailFastFile></testFailFastFile>
+    <testFailFastFile/>
     <testJacocoAgentArgument/>
     <integrationtest.coverage.enabled>false</integrationtest.coverage.enabled>
     <integrationtest.coverage.dir>${project.build.directory}</integrationtest.coverage.dir>
@@ -248,7 +248,7 @@ flexible messaging model and an intuitive client API.</description>
     <seancfoley.ipaddress.version>5.3.3</seancfoley.ipaddress.version>
     <disruptor.version>3.4.3</disruptor.version>
     <zstd-jni.version>1.5.2-3</zstd-jni.version>
-    <netty-reactive-streams.version>2.0.6</netty-reactive-streams.version>
+    <netty-reactive-streams.version>2.0.17</netty-reactive-streams.version>
 
     <!-- test dependencies -->
     <testcontainers.version>1.18.3</testcontainers.version>
